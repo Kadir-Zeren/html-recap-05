@@ -75,3 +75,26 @@ input:focus {
   border: 4px dashed white;
   outline: none;
 }
+
+nav.links a {
+  color: crimson;
+  text-decoration: none;
+}
+
+nav.links a:hover {
+  color: rgb(67, 97, 37);
+  text-decoration: none;
+}
+
+nav.links a:link {
+  color: brown;
+}
+
+nav.links a:visited {
+  color: lightpink;
+}
+
+nav.links a:active {
+  color: magenta;
+}
+
