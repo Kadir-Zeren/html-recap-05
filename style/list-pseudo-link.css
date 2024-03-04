@@ -1,4 +1,10 @@
-ul {
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+ul.languages {
+  font-family: "Bruno Ace SC", sans-serif;
+
   list-style-type: circle;
   list-style-type: square;
   list-style-type: none;
@@ -10,4 +16,62 @@ ul {
   padding: 20px;
 
   list-style-image: url("../img/igloo-solid\ \(3\).svg");
+}
+
+h2 {
+  color: blueviolet;
+}
+
+h2 i {
+  font-size: 40px;
+}
+
+.fa-solid {
+  color: red;
+}
+ul.pseudo li {
+  background-color: darkgray;
+  font-weight: 700;
+}
+
+ul.pseudo li:first-child {
+  color: blue;
+}
+
+ul.pseudo li:last-child {
+  color: green;
+}
+
+ul.psudo li:nth-child(5) {
+  color: purple;
+  font-weight: 300;
+}
+
+ul.pseudo li:nth-child(odd) {
+  color: hotpink;
+  background-color: lightgray;
+}
+
+ul.pseudo li:nth-child(even) {
+  color: lightsalmon;
+}
+
+ul.pseudo li:hover {
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+ul.pseudo li:active {
+  background-color: green;
+}
+
+ul.pseudo li:not(odd) {
+  background-color: green;
+}
+
+input:focus {
+  background-color: tomato;
+  color: white;
+  border: 4px dashed white;
+  outline: none;
 }
